@@ -1,0 +1,22 @@
+{
+  "name": "@bhincubator/swc-mini-config",
+  "version": "0.0.0",
+  "bin": {
+    "swc-mini": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@swc/core": "^1.7.26",
+    "defu": "^6.1.4",
+    "sade": "^1.8.1",
+    "tiny-glob": "^0.2.9"
+  },
+  "devDependencies": {
+    "@barelyhuman/prettier-config": "^2.0.2",
+    "prettier": "^3.3.3"
+  },
+  "prettier": "@barelyhuman/prettier-config"
+}
